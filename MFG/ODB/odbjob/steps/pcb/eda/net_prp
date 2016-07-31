@@ -1,0 +1,2074 @@
+# 31 Dec 2010 05:41 PM
+#
+CNSA_NET_TYPE_CLEARANCES {
+    constr_area = *
+    net_type1 = *
+    net_type2 = *
+    layers = top
+    bb_via2bb_via = 0.005000
+    bb_via2line = 0.005000
+    bb_via2smd_pin = 0.005000
+    bb_via2shape = 0.006000
+    bb_via2tst_pin = 0.005000
+    bb_via2tst_via = 0.005000
+    bb_via2thru_pin = 0.005000
+    bb_via2thru_via = 0.005000
+    line2line = 0.005000
+    line2smd_pin = 0.005000
+    line2shape = 0.010000
+    line2tst_pin = 0.005000
+    line2tst_via = 0.005000
+    line2thru_pin = 0.005000
+    line2thru_via = 0.005000
+    shape2smd_pin = 0.010000
+    shape2shape = 0.012000
+    shape2tst_pin = 0.010000
+    shape2tst_via = 0.006000
+    shape2thru_pin = 0.010000
+    shape2thru_via = 0.006000
+    smd_pin2smd_pin = 0.004000
+    smd_pin2tst_pin = 0.005000
+    smd_pin2tst_via = 0.005000
+    smd_pin2thru_pin = 0.005000
+    smd_pin2thru_via = 0.005000
+    tst_pin2tst_pin = 0.005000
+    tst_pin2tst_via = 0.005000
+    tst_pin2thru_pin = 0.005000
+    tst_pin2thru_via = 0.005000
+    tst_via2tst_via = 0.005000
+    tst_via2thru_pin = 0.005000
+    tst_via2thru_via = 0.005000
+    thru_pin2thru_pin = 0.005000
+    thru_pin2thru_via = 0.005000
+    thru_via2thru_via = 0.005000
+    hole2hole = 0.006000
+    hole2owire = 0.006000
+    owire2owire = 0.006000
+    dwire2dwire = 0.006000
+    dwire2hole = 0.006000
+    dwire2owire = 0.006000
+    thru_pin2bond_pad = 0.005000
+    smd_pin2bond_pad = 0.005000
+    thru_via2bond_pad = 0.005000
+    bond_pad2bond_pad = 0.005000
+    bond_pad2line = 0.005000
+    bond_pad2shape = 0.006000
+    bb_via2bond_pad = 0.005000
+    tst_pin2bond_pad = 0.005000
+    tst_via2bond_pad = 0.005000
+}
+
+CNSA_NET_TYPE_CLEARANCES {
+    constr_area = *
+    net_type1 = *
+    net_type2 = *
+    layers = lyr2-gnd
+    bb_via2bb_via = 0.005000
+    bb_via2line = 0.005000
+    bb_via2smd_pin = 0.005000
+    bb_via2shape = 0.005000
+    bb_via2tst_pin = 0.005000
+    bb_via2tst_via = 0.005000
+    bb_via2thru_pin = 0.005000
+    bb_via2thru_via = 0.005000
+    line2line = 0.005000
+    line2smd_pin = 0.005000
+    line2shape = 0.005000
+    line2tst_pin = 0.005000
+    line2tst_via = 0.005000
+    line2thru_pin = 0.005000
+    line2thru_via = 0.005000
+    shape2smd_pin = 0.005000
+    shape2shape = 0.012000
+    shape2tst_pin = 0.005000
+    shape2tst_via = 0.005000
+    shape2thru_pin = 0.005000
+    shape2thru_via = 0.005000
+    smd_pin2smd_pin = 0.004000
+    smd_pin2tst_pin = 0.005000
+    smd_pin2tst_via = 0.005000
+    smd_pin2thru_pin = 0.005000
+    smd_pin2thru_via = 0.005000
+    tst_pin2tst_pin = 0.005000
+    tst_pin2tst_via = 0.005000
+    tst_pin2thru_pin = 0.005000
+    tst_pin2thru_via = 0.005000
+    tst_via2tst_via = 0.005000
+    tst_via2thru_pin = 0.005000
+    tst_via2thru_via = 0.005000
+    thru_pin2thru_pin = 0.005000
+    thru_pin2thru_via = 0.005000
+    thru_via2thru_via = 0.005000
+    hole2hole = 0.006000
+    hole2owire = 0.006000
+    owire2owire = 0.006000
+    dwire2dwire = 0.006000
+    dwire2hole = 0.006000
+    dwire2owire = 0.006000
+    thru_pin2bond_pad = 0.005000
+    smd_pin2bond_pad = 0.005000
+    thru_via2bond_pad = 0.005000
+    bond_pad2bond_pad = 0.005000
+    bond_pad2line = 0.005000
+    bond_pad2shape = 0.005000
+    bb_via2bond_pad = 0.005000
+    tst_pin2bond_pad = 0.005000
+    tst_via2bond_pad = 0.005000
+}
+
+CNSA_KEY_NET_TYPE_CLEARANCES {
+    constr_area = *
+    net_type1 = *
+    net_type2 = *
+    layers = lyr2-gnd
+    main_set_name = CSET00001
+}
+
+CNSA_KEY_NET_TYPE_CLEARANCES {
+    constr_area = *
+    net_type1 = *
+    net_type2 = *
+    layers = lyr3-sig
+    set_name = CSET00001
+}
+
+CNSA_KEY_NET_TYPE_CLEARANCES {
+    constr_area = *
+    net_type1 = *
+    net_type2 = *
+    layers = lyr4-sig
+    set_name = CSET00001
+}
+
+CNSA_KEY_NET_TYPE_CLEARANCES {
+    constr_area = *
+    net_type1 = *
+    net_type2 = *
+    layers = lyr5-pwr
+    set_name = CSET00001
+}
+
+CNSA_NET_TYPE_CLEARANCES {
+    constr_area = *
+    net_type1 = *
+    net_type2 = *
+    layers = bottom
+    bb_via2bb_via = 0.005000
+    bb_via2line = 0.005000
+    bb_via2smd_pin = 0.005000
+    bb_via2shape = 0.010000
+    bb_via2tst_pin = 0.005000
+    bb_via2tst_via = 0.005000
+    bb_via2thru_pin = 0.005000
+    bb_via2thru_via = 0.005000
+    line2line = 0.005000
+    line2smd_pin = 0.005000
+    line2shape = 0.010000
+    line2tst_pin = 0.005000
+    line2tst_via = 0.005000
+    line2thru_pin = 0.005000
+    line2thru_via = 0.005000
+    shape2smd_pin = 0.010000
+    shape2shape = 0.012000
+    shape2tst_pin = 0.010000
+    shape2tst_via = 0.010000
+    shape2thru_pin = 0.010000
+    shape2thru_via = 0.010000
+    smd_pin2smd_pin = 0.004000
+    smd_pin2tst_pin = 0.005000
+    smd_pin2tst_via = 0.005000
+    smd_pin2thru_pin = 0.005000
+    smd_pin2thru_via = 0.005000
+    tst_pin2tst_pin = 0.005000
+    tst_pin2tst_via = 0.005000
+    tst_pin2thru_pin = 0.005000
+    tst_pin2thru_via = 0.005000
+    tst_via2tst_via = 0.005000
+    tst_via2thru_pin = 0.005000
+    tst_via2thru_via = 0.005000
+    thru_pin2thru_pin = 0.005000
+    thru_pin2thru_via = 0.005000
+    thru_via2thru_via = 0.005000
+    hole2hole = 0.006000
+    hole2owire = 0.006000
+    owire2owire = 0.006000
+    dwire2dwire = 0.006000
+    dwire2hole = 0.006000
+    dwire2owire = 0.006000
+    thru_pin2bond_pad = 0.005000
+    smd_pin2bond_pad = 0.005000
+    thru_via2bond_pad = 0.005000
+    bond_pad2bond_pad = 0.005000
+    bond_pad2line = 0.005000
+    bond_pad2shape = 0.010000
+    bb_via2bond_pad = 0.005000
+    tst_pin2bond_pad = 0.005000
+    tst_via2bond_pad = 0.005000
+}
+
+CNSA_NET_TYPE_CLEARANCES {
+    constr_area = MSHORT
+    net_type1 = CLK
+    net_type2 = CLK
+    layers = top
+    bb_via2bb_via = 0.005000
+    bb_via2line = 0.005000
+    bb_via2smd_pin = 0.005000
+    bb_via2shape = 0.010000
+    bb_via2tst_pin = 0.005000
+    bb_via2tst_via = 0.005000
+    bb_via2thru_pin = 0.005000
+    bb_via2thru_via = 0.005000
+    line2line = 0.005000
+    line2smd_pin = 0.005000
+    line2shape = 0.010000
+    line2tst_pin = 0.005000
+    line2tst_via = 0.005000
+    line2thru_pin = 0.005000
+    line2thru_via = 0.005000
+    shape2smd_pin = 0.010000
+    shape2shape = 0.012000
+    shape2tst_pin = 0.010000
+    shape2tst_via = 0.010000
+    shape2thru_pin = 0.010000
+    shape2thru_via = 0.010000
+    smd_pin2smd_pin = 0.003000
+    smd_pin2tst_pin = 0.003000
+    smd_pin2tst_via = 0.005000
+    smd_pin2thru_pin = 0.003000
+    smd_pin2thru_via = 0.005000
+    tst_pin2tst_pin = 0.003000
+    tst_pin2tst_via = 0.005000
+    tst_pin2thru_pin = 0.003000
+    tst_pin2thru_via = 0.005000
+    tst_via2tst_via = 0.005000
+    tst_via2thru_pin = 0.005000
+    tst_via2thru_via = 0.005000
+    thru_pin2thru_pin = 0.003000
+    thru_pin2thru_via = 0.005000
+    thru_via2thru_via = 0.005000
+    hole2hole = 0.006000
+    hole2owire = 0.006000
+    owire2owire = 0.006000
+    dwire2dwire = 0.006000
+    dwire2hole = 0.006000
+    dwire2owire = 0.006000
+    thru_pin2bond_pad = 0.005000
+    smd_pin2bond_pad = 0.005000
+    thru_via2bond_pad = 0.005000
+    bond_pad2bond_pad = 0.005000
+    bond_pad2line = 0.005000
+    bond_pad2shape = 0.010000
+    bb_via2bond_pad = 0.005000
+    tst_pin2bond_pad = 0.005000
+    tst_via2bond_pad = 0.005000
+}
+
+CNSA_KEY_NET_TYPE_CLEARANCES {
+    constr_area = MSHORT
+    net_type1 = CLK
+    net_type2 = CLK
+    layers = top
+    main_set_name = CSET00002
+}
+
+CNSA_KEY_NET_TYPE_CLEARANCES {
+    constr_area = MSHORT
+    net_type1 = CLK
+    net_type2 = CLK
+    layers = bottom
+    set_name = CSET00002
+}
+
+CNSA_KEY_NET_TYPE_CLEARANCES {
+    constr_area = MSHORT
+    net_type1 = NO-TYPE
+    net_type2 = CLK
+    layers = top
+    set_name = CSET00002
+}
+
+CNSA_KEY_NET_TYPE_CLEARANCES {
+    constr_area = MSHORT
+    net_type1 = NO-TYPE
+    net_type2 = CLK
+    layers = bottom
+    set_name = CSET00002
+}
+
+CNSA_KEY_NET_TYPE_CLEARANCES {
+    constr_area = MSHORT
+    net_type1 = NO-TYPE
+    net_type2 = NO-TYPE
+    layers = top
+    set_name = CSET00002
+}
+
+CNSA_KEY_NET_TYPE_CLEARANCES {
+    constr_area = MSHORT
+    net_type1 = NO-TYPE
+    net_type2 = NO-TYPE
+    layers = bottom
+    set_name = CSET00002
+}
+
+CNSA_NET_TYPE_CLEARANCES {
+    constr_area = MSHORT
+    net_type1 = CLK
+    net_type2 = CLK
+    layers = lyr2-gnd
+    bb_via2bb_via = 0.005000
+    bb_via2line = 0.005000
+    bb_via2smd_pin = 0.005000
+    bb_via2shape = 0.005000
+    bb_via2tst_pin = 0.005000
+    bb_via2tst_via = 0.005000
+    bb_via2thru_pin = 0.005000
+    bb_via2thru_via = 0.005000
+    line2line = 0.005000
+    line2smd_pin = 0.005000
+    line2shape = 0.005000
+    line2tst_pin = 0.005000
+    line2tst_via = 0.005000
+    line2thru_pin = 0.005000
+    line2thru_via = 0.005000
+    shape2smd_pin = 0.005000
+    shape2shape = 0.012000
+    shape2tst_pin = 0.005000
+    shape2tst_via = 0.005000
+    shape2thru_pin = 0.005000
+    shape2thru_via = 0.005000
+    smd_pin2smd_pin = 0.003000
+    smd_pin2tst_pin = 0.003000
+    smd_pin2tst_via = 0.005000
+    smd_pin2thru_pin = 0.003000
+    smd_pin2thru_via = 0.005000
+    tst_pin2tst_pin = 0.003000
+    tst_pin2tst_via = 0.005000
+    tst_pin2thru_pin = 0.003000
+    tst_pin2thru_via = 0.005000
+    tst_via2tst_via = 0.005000
+    tst_via2thru_pin = 0.005000
+    tst_via2thru_via = 0.005000
+    thru_pin2thru_pin = 0.003000
+    thru_pin2thru_via = 0.005000
+    thru_via2thru_via = 0.005000
+    hole2hole = 0.006000
+    hole2owire = 0.006000
+    owire2owire = 0.006000
+    dwire2dwire = 0.006000
+    dwire2hole = 0.006000
+    dwire2owire = 0.006000
+    thru_pin2bond_pad = 0.005000
+    smd_pin2bond_pad = 0.005000
+    thru_via2bond_pad = 0.005000
+    bond_pad2bond_pad = 0.005000
+    bond_pad2line = 0.005000
+    bond_pad2shape = 0.005000
+    bb_via2bond_pad = 0.005000
+    tst_pin2bond_pad = 0.005000
+    tst_via2bond_pad = 0.005000
+}
+
+CNSA_KEY_NET_TYPE_CLEARANCES {
+    constr_area = MSHORT
+    net_type1 = CLK
+    net_type2 = CLK
+    layers = lyr2-gnd
+    main_set_name = CSET00003
+}
+
+CNSA_KEY_NET_TYPE_CLEARANCES {
+    constr_area = MSHORT
+    net_type1 = CLK
+    net_type2 = CLK
+    layers = lyr3-sig
+    set_name = CSET00003
+}
+
+CNSA_KEY_NET_TYPE_CLEARANCES {
+    constr_area = MSHORT
+    net_type1 = CLK
+    net_type2 = CLK
+    layers = lyr4-sig
+    set_name = CSET00003
+}
+
+CNSA_KEY_NET_TYPE_CLEARANCES {
+    constr_area = MSHORT
+    net_type1 = CLK
+    net_type2 = CLK
+    layers = lyr5-pwr
+    set_name = CSET00003
+}
+
+CNSA_KEY_NET_TYPE_CLEARANCES {
+    constr_area = MSHORT
+    net_type1 = NO-TYPE
+    net_type2 = CLK
+    layers = lyr2-gnd
+    set_name = CSET00003
+}
+
+CNSA_KEY_NET_TYPE_CLEARANCES {
+    constr_area = MSHORT
+    net_type1 = NO-TYPE
+    net_type2 = CLK
+    layers = lyr3-sig
+    set_name = CSET00003
+}
+
+CNSA_KEY_NET_TYPE_CLEARANCES {
+    constr_area = MSHORT
+    net_type1 = NO-TYPE
+    net_type2 = CLK
+    layers = lyr4-sig
+    set_name = CSET00003
+}
+
+CNSA_KEY_NET_TYPE_CLEARANCES {
+    constr_area = MSHORT
+    net_type1 = NO-TYPE
+    net_type2 = CLK
+    layers = lyr5-pwr
+    set_name = CSET00003
+}
+
+CNSA_KEY_NET_TYPE_CLEARANCES {
+    constr_area = MSHORT
+    net_type1 = NO-TYPE
+    net_type2 = NO-TYPE
+    layers = lyr2-gnd
+    set_name = CSET00003
+}
+
+CNSA_KEY_NET_TYPE_CLEARANCES {
+    constr_area = MSHORT
+    net_type1 = NO-TYPE
+    net_type2 = NO-TYPE
+    layers = lyr3-sig
+    set_name = CSET00003
+}
+
+CNSA_KEY_NET_TYPE_CLEARANCES {
+    constr_area = MSHORT
+    net_type1 = NO-TYPE
+    net_type2 = NO-TYPE
+    layers = lyr4-sig
+    set_name = CSET00003
+}
+
+CNSA_KEY_NET_TYPE_CLEARANCES {
+    constr_area = MSHORT
+    net_type1 = NO-TYPE
+    net_type2 = NO-TYPE
+    layers = lyr5-pwr
+    set_name = CSET00003
+}
+
+CNSA_NET_TYPE_CLEARANCES {
+    constr_area = NO-TYPE
+    net_type1 = CLK
+    net_type2 = CLK
+    layers = top
+    bb_via2bb_via = 0.005000
+    bb_via2line = 0.005000
+    bb_via2smd_pin = 0.005000
+    bb_via2shape = 0.008000
+    bb_via2tst_pin = 0.005000
+    bb_via2tst_via = 0.005000
+    bb_via2thru_pin = 0.005000
+    bb_via2thru_via = 0.005000
+    line2line = 0.008000
+    line2smd_pin = 0.005000
+    line2shape = 0.008000
+    line2tst_pin = 0.005000
+    line2tst_via = 0.005000
+    line2thru_pin = 0.005000
+    line2thru_via = 0.005000
+    shape2smd_pin = 0.010000
+    shape2shape = 0.012000
+    shape2tst_pin = 0.010000
+    shape2tst_via = 0.008000
+    shape2thru_pin = 0.010000
+    shape2thru_via = 0.008000
+    smd_pin2smd_pin = 0.004000
+    smd_pin2tst_pin = 0.005000
+    smd_pin2tst_via = 0.005000
+    smd_pin2thru_pin = 0.005000
+    smd_pin2thru_via = 0.005000
+    tst_pin2tst_pin = 0.005000
+    tst_pin2tst_via = 0.005000
+    tst_pin2thru_pin = 0.005000
+    tst_pin2thru_via = 0.005000
+    tst_via2tst_via = 0.005000
+    tst_via2thru_pin = 0.005000
+    tst_via2thru_via = 0.005000
+    thru_pin2thru_pin = 0.005000
+    thru_pin2thru_via = 0.005000
+    thru_via2thru_via = 0.005000
+    hole2hole = 0.006000
+    hole2owire = 0.006000
+    owire2owire = 0.006000
+    dwire2dwire = 0.006000
+    dwire2hole = 0.006000
+    dwire2owire = 0.006000
+    thru_pin2bond_pad = 0.005000
+    smd_pin2bond_pad = 0.005000
+    thru_via2bond_pad = 0.005000
+    bond_pad2bond_pad = 0.005000
+    bond_pad2line = 0.005000
+    bond_pad2shape = 0.008000
+    bb_via2bond_pad = 0.005000
+    tst_pin2bond_pad = 0.005000
+    tst_via2bond_pad = 0.005000
+}
+
+CNSA_KEY_NET_TYPE_CLEARANCES {
+    constr_area = NO-TYPE
+    net_type1 = CLK
+    net_type2 = CLK
+    layers = top
+    main_set_name = CSET00004
+}
+
+CNSA_KEY_NET_TYPE_CLEARANCES {
+    constr_area = NO-TYPE
+    net_type1 = CLK
+    net_type2 = CLK
+    layers = bottom
+    set_name = CSET00004
+}
+
+CNSA_KEY_NET_TYPE_CLEARANCES {
+    constr_area = NO-TYPE
+    net_type1 = NO-TYPE
+    net_type2 = CLK
+    layers = top
+    set_name = CSET00004
+}
+
+CNSA_KEY_NET_TYPE_CLEARANCES {
+    constr_area = NO-TYPE
+    net_type1 = NO-TYPE
+    net_type2 = CLK
+    layers = bottom
+    set_name = CSET00004
+}
+
+CNSA_NET_TYPE_CLEARANCES {
+    constr_area = NO-TYPE
+    net_type1 = CLK
+    net_type2 = CLK
+    layers = lyr2-gnd
+    bb_via2bb_via = 0.005000
+    bb_via2line = 0.005000
+    bb_via2smd_pin = 0.005000
+    bb_via2shape = 0.008000
+    bb_via2tst_pin = 0.005000
+    bb_via2tst_via = 0.005000
+    bb_via2thru_pin = 0.005000
+    bb_via2thru_via = 0.005000
+    line2line = 0.008000
+    line2smd_pin = 0.005000
+    line2shape = 0.008000
+    line2tst_pin = 0.005000
+    line2tst_via = 0.005000
+    line2thru_pin = 0.005000
+    line2thru_via = 0.005000
+    shape2smd_pin = 0.005000
+    shape2shape = 0.012000
+    shape2tst_pin = 0.005000
+    shape2tst_via = 0.008000
+    shape2thru_pin = 0.005000
+    shape2thru_via = 0.008000
+    smd_pin2smd_pin = 0.004000
+    smd_pin2tst_pin = 0.005000
+    smd_pin2tst_via = 0.005000
+    smd_pin2thru_pin = 0.005000
+    smd_pin2thru_via = 0.005000
+    tst_pin2tst_pin = 0.005000
+    tst_pin2tst_via = 0.005000
+    tst_pin2thru_pin = 0.005000
+    tst_pin2thru_via = 0.005000
+    tst_via2tst_via = 0.005000
+    tst_via2thru_pin = 0.005000
+    tst_via2thru_via = 0.005000
+    thru_pin2thru_pin = 0.005000
+    thru_pin2thru_via = 0.005000
+    thru_via2thru_via = 0.005000
+    hole2hole = 0.006000
+    hole2owire = 0.006000
+    owire2owire = 0.006000
+    dwire2dwire = 0.006000
+    dwire2hole = 0.006000
+    dwire2owire = 0.006000
+    thru_pin2bond_pad = 0.005000
+    smd_pin2bond_pad = 0.005000
+    thru_via2bond_pad = 0.005000
+    bond_pad2bond_pad = 0.005000
+    bond_pad2line = 0.005000
+    bond_pad2shape = 0.008000
+    bb_via2bond_pad = 0.005000
+    tst_pin2bond_pad = 0.005000
+    tst_via2bond_pad = 0.005000
+}
+
+CNSA_KEY_NET_TYPE_CLEARANCES {
+    constr_area = NO-TYPE
+    net_type1 = CLK
+    net_type2 = CLK
+    layers = lyr2-gnd
+    main_set_name = CSET00005
+}
+
+CNSA_KEY_NET_TYPE_CLEARANCES {
+    constr_area = NO-TYPE
+    net_type1 = CLK
+    net_type2 = CLK
+    layers = lyr3-sig
+    set_name = CSET00005
+}
+
+CNSA_KEY_NET_TYPE_CLEARANCES {
+    constr_area = NO-TYPE
+    net_type1 = CLK
+    net_type2 = CLK
+    layers = lyr4-sig
+    set_name = CSET00005
+}
+
+CNSA_KEY_NET_TYPE_CLEARANCES {
+    constr_area = NO-TYPE
+    net_type1 = CLK
+    net_type2 = CLK
+    layers = lyr5-pwr
+    set_name = CSET00005
+}
+
+CNSA_KEY_NET_TYPE_CLEARANCES {
+    constr_area = NO-TYPE
+    net_type1 = NO-TYPE
+    net_type2 = CLK
+    layers = lyr2-gnd
+    set_name = CSET00005
+}
+
+CNSA_KEY_NET_TYPE_CLEARANCES {
+    constr_area = NO-TYPE
+    net_type1 = NO-TYPE
+    net_type2 = CLK
+    layers = lyr3-sig
+    set_name = CSET00005
+}
+
+CNSA_KEY_NET_TYPE_CLEARANCES {
+    constr_area = NO-TYPE
+    net_type1 = NO-TYPE
+    net_type2 = CLK
+    layers = lyr4-sig
+    set_name = CSET00005
+}
+
+CNSA_KEY_NET_TYPE_CLEARANCES {
+    constr_area = NO-TYPE
+    net_type1 = NO-TYPE
+    net_type2 = CLK
+    layers = lyr5-pwr
+    set_name = CSET00005
+}
+
+CNSA_NET_TYPE_CLEARANCES {
+    constr_area = OMAP
+    net_type1 = CLK
+    net_type2 = CLK
+    layers = top
+    bb_via2bb_via = 0.003000
+    bb_via2line = 0.003000
+    bb_via2smd_pin = 0.005000
+    bb_via2shape = 0.004000
+    bb_via2tst_pin = 0.006000
+    bb_via2tst_via = 0.006000
+    bb_via2thru_pin = 0.006000
+    bb_via2thru_via = 0.006000
+    line2line = 0.003000
+    line2smd_pin = 0.003000
+    line2shape = 0.004000
+    line2tst_pin = 0.006000
+    line2tst_via = 0.006000
+    line2thru_pin = 0.003000
+    line2thru_via = 0.004000
+    shape2smd_pin = 0.004000
+    shape2shape = 0.010000
+    shape2tst_pin = 0.004000
+    shape2tst_via = 0.004000
+    shape2thru_pin = 0.004000
+    shape2thru_via = 0.004000
+    smd_pin2smd_pin = 0.003000
+    smd_pin2tst_pin = 0.003000
+    smd_pin2tst_via = 0.006000
+    smd_pin2thru_pin = 0.003000
+    smd_pin2thru_via = 0.005000
+    tst_pin2tst_pin = 0.003000
+    tst_pin2tst_via = 0.006000
+    tst_pin2thru_pin = 0.003000
+    tst_pin2thru_via = 0.006000
+    tst_via2tst_via = 0.006000
+    tst_via2thru_pin = 0.006000
+    tst_via2thru_via = 0.006000
+    thru_pin2thru_pin = 0.003000
+    thru_pin2thru_via = 0.006000
+    thru_via2thru_via = 0.006000
+    hole2hole = 0.006000
+    hole2owire = 0.006000
+    owire2owire = 0.006000
+    dwire2dwire = 0.006000
+    dwire2hole = 0.006000
+    dwire2owire = 0.006000
+    thru_pin2bond_pad = 0.006000
+    smd_pin2bond_pad = 0.006000
+    thru_via2bond_pad = 0.006000
+    bond_pad2bond_pad = 0.006000
+    bond_pad2line = 0.006000
+    bond_pad2shape = 0.004000
+    bb_via2bond_pad = 0.006000
+    tst_pin2bond_pad = 0.006000
+    tst_via2bond_pad = 0.006000
+}
+
+CNSA_KEY_NET_TYPE_CLEARANCES {
+    constr_area = OMAP
+    net_type1 = CLK
+    net_type2 = CLK
+    layers = top
+    main_set_name = CSET00006
+}
+
+CNSA_KEY_NET_TYPE_CLEARANCES {
+    constr_area = OMAP
+    net_type1 = NO-TYPE
+    net_type2 = CLK
+    layers = top
+    set_name = CSET00006
+}
+
+CNSA_KEY_NET_TYPE_CLEARANCES {
+    constr_area = OMAP
+    net_type1 = NO-TYPE
+    net_type2 = NO-TYPE
+    layers = top
+    set_name = CSET00006
+}
+
+CNSA_KEY_NET_TYPE_CLEARANCES {
+    constr_area = OMAP35
+    net_type1 = CLK
+    net_type2 = CLK
+    layers = top
+    set_name = CSET00006
+}
+
+CNSA_KEY_NET_TYPE_CLEARANCES {
+    constr_area = OMAP35
+    net_type1 = NO-TYPE
+    net_type2 = CLK
+    layers = top
+    set_name = CSET00006
+}
+
+CNSA_KEY_NET_TYPE_CLEARANCES {
+    constr_area = OMAP35
+    net_type1 = NO-TYPE
+    net_type2 = NO-TYPE
+    layers = top
+    set_name = CSET00006
+}
+
+CNSA_NET_TYPE_CLEARANCES {
+    constr_area = OMAP
+    net_type1 = CLK
+    net_type2 = CLK
+    layers = lyr2-gnd
+    bb_via2bb_via = 0.003000
+    bb_via2line = 0.003000
+    bb_via2smd_pin = 0.006000
+    bb_via2shape = 0.004000
+    bb_via2tst_pin = 0.006000
+    bb_via2tst_via = 0.006000
+    bb_via2thru_pin = 0.006000
+    bb_via2thru_via = 0.006000
+    line2line = 0.003000
+    line2smd_pin = 0.003000
+    line2shape = 0.004000
+    line2tst_pin = 0.006000
+    line2tst_via = 0.006000
+    line2thru_pin = 0.003000
+    line2thru_via = 0.004000
+    shape2smd_pin = 0.004000
+    shape2shape = 0.010000
+    shape2tst_pin = 0.004000
+    shape2tst_via = 0.004000
+    shape2thru_pin = 0.004000
+    shape2thru_via = 0.004000
+    smd_pin2smd_pin = 0.003000
+    smd_pin2tst_pin = 0.003000
+    smd_pin2tst_via = 0.006000
+    smd_pin2thru_pin = 0.003000
+    smd_pin2thru_via = 0.005000
+    tst_pin2tst_pin = 0.003000
+    tst_pin2tst_via = 0.006000
+    tst_pin2thru_pin = 0.003000
+    tst_pin2thru_via = 0.006000
+    tst_via2tst_via = 0.006000
+    tst_via2thru_pin = 0.006000
+    tst_via2thru_via = 0.006000
+    thru_pin2thru_pin = 0.003000
+    thru_pin2thru_via = 0.006000
+    thru_via2thru_via = 0.006000
+    hole2hole = 0.006000
+    hole2owire = 0.006000
+    owire2owire = 0.006000
+    dwire2dwire = 0.006000
+    dwire2hole = 0.006000
+    dwire2owire = 0.006000
+    thru_pin2bond_pad = 0.006000
+    smd_pin2bond_pad = 0.006000
+    thru_via2bond_pad = 0.006000
+    bond_pad2bond_pad = 0.006000
+    bond_pad2line = 0.006000
+    bond_pad2shape = 0.004000
+    bb_via2bond_pad = 0.006000
+    tst_pin2bond_pad = 0.006000
+    tst_via2bond_pad = 0.006000
+}
+
+CNSA_KEY_NET_TYPE_CLEARANCES {
+    constr_area = OMAP
+    net_type1 = CLK
+    net_type2 = CLK
+    layers = lyr2-gnd
+    main_set_name = CSET00007
+}
+
+CNSA_KEY_NET_TYPE_CLEARANCES {
+    constr_area = OMAP
+    net_type1 = CLK
+    net_type2 = CLK
+    layers = lyr3-sig
+    set_name = CSET00007
+}
+
+CNSA_KEY_NET_TYPE_CLEARANCES {
+    constr_area = OMAP
+    net_type1 = CLK
+    net_type2 = CLK
+    layers = lyr4-sig
+    set_name = CSET00007
+}
+
+CNSA_KEY_NET_TYPE_CLEARANCES {
+    constr_area = OMAP
+    net_type1 = CLK
+    net_type2 = CLK
+    layers = lyr5-pwr
+    set_name = CSET00007
+}
+
+CNSA_KEY_NET_TYPE_CLEARANCES {
+    constr_area = OMAP
+    net_type1 = CLK
+    net_type2 = CLK
+    layers = bottom
+    set_name = CSET00007
+}
+
+CNSA_KEY_NET_TYPE_CLEARANCES {
+    constr_area = OMAP
+    net_type1 = NO-TYPE
+    net_type2 = CLK
+    layers = lyr2-gnd
+    set_name = CSET00007
+}
+
+CNSA_KEY_NET_TYPE_CLEARANCES {
+    constr_area = OMAP
+    net_type1 = NO-TYPE
+    net_type2 = CLK
+    layers = lyr3-sig
+    set_name = CSET00007
+}
+
+CNSA_KEY_NET_TYPE_CLEARANCES {
+    constr_area = OMAP
+    net_type1 = NO-TYPE
+    net_type2 = CLK
+    layers = lyr4-sig
+    set_name = CSET00007
+}
+
+CNSA_KEY_NET_TYPE_CLEARANCES {
+    constr_area = OMAP
+    net_type1 = NO-TYPE
+    net_type2 = CLK
+    layers = lyr5-pwr
+    set_name = CSET00007
+}
+
+CNSA_KEY_NET_TYPE_CLEARANCES {
+    constr_area = OMAP
+    net_type1 = NO-TYPE
+    net_type2 = CLK
+    layers = bottom
+    set_name = CSET00007
+}
+
+CNSA_KEY_NET_TYPE_CLEARANCES {
+    constr_area = OMAP
+    net_type1 = NO-TYPE
+    net_type2 = NO-TYPE
+    layers = lyr2-gnd
+    set_name = CSET00007
+}
+
+CNSA_KEY_NET_TYPE_CLEARANCES {
+    constr_area = OMAP
+    net_type1 = NO-TYPE
+    net_type2 = NO-TYPE
+    layers = lyr3-sig
+    set_name = CSET00007
+}
+
+CNSA_KEY_NET_TYPE_CLEARANCES {
+    constr_area = OMAP
+    net_type1 = NO-TYPE
+    net_type2 = NO-TYPE
+    layers = lyr4-sig
+    set_name = CSET00007
+}
+
+CNSA_KEY_NET_TYPE_CLEARANCES {
+    constr_area = OMAP
+    net_type1 = NO-TYPE
+    net_type2 = NO-TYPE
+    layers = lyr5-pwr
+    set_name = CSET00007
+}
+
+CNSA_KEY_NET_TYPE_CLEARANCES {
+    constr_area = OMAP
+    net_type1 = NO-TYPE
+    net_type2 = NO-TYPE
+    layers = bottom
+    set_name = CSET00007
+}
+
+CNSA_KEY_NET_TYPE_CLEARANCES {
+    constr_area = OMAP35
+    net_type1 = CLK
+    net_type2 = CLK
+    layers = lyr2-gnd
+    set_name = CSET00007
+}
+
+CNSA_KEY_NET_TYPE_CLEARANCES {
+    constr_area = OMAP35
+    net_type1 = CLK
+    net_type2 = CLK
+    layers = lyr3-sig
+    set_name = CSET00007
+}
+
+CNSA_KEY_NET_TYPE_CLEARANCES {
+    constr_area = OMAP35
+    net_type1 = CLK
+    net_type2 = CLK
+    layers = lyr4-sig
+    set_name = CSET00007
+}
+
+CNSA_KEY_NET_TYPE_CLEARANCES {
+    constr_area = OMAP35
+    net_type1 = CLK
+    net_type2 = CLK
+    layers = lyr5-pwr
+    set_name = CSET00007
+}
+
+CNSA_KEY_NET_TYPE_CLEARANCES {
+    constr_area = OMAP35
+    net_type1 = CLK
+    net_type2 = CLK
+    layers = bottom
+    set_name = CSET00007
+}
+
+CNSA_KEY_NET_TYPE_CLEARANCES {
+    constr_area = OMAP35
+    net_type1 = NO-TYPE
+    net_type2 = CLK
+    layers = lyr2-gnd
+    set_name = CSET00007
+}
+
+CNSA_KEY_NET_TYPE_CLEARANCES {
+    constr_area = OMAP35
+    net_type1 = NO-TYPE
+    net_type2 = CLK
+    layers = lyr3-sig
+    set_name = CSET00007
+}
+
+CNSA_KEY_NET_TYPE_CLEARANCES {
+    constr_area = OMAP35
+    net_type1 = NO-TYPE
+    net_type2 = CLK
+    layers = lyr4-sig
+    set_name = CSET00007
+}
+
+CNSA_KEY_NET_TYPE_CLEARANCES {
+    constr_area = OMAP35
+    net_type1 = NO-TYPE
+    net_type2 = CLK
+    layers = lyr5-pwr
+    set_name = CSET00007
+}
+
+CNSA_KEY_NET_TYPE_CLEARANCES {
+    constr_area = OMAP35
+    net_type1 = NO-TYPE
+    net_type2 = CLK
+    layers = bottom
+    set_name = CSET00007
+}
+
+CNSA_KEY_NET_TYPE_CLEARANCES {
+    constr_area = OMAP35
+    net_type1 = NO-TYPE
+    net_type2 = NO-TYPE
+    layers = lyr2-gnd
+    set_name = CSET00007
+}
+
+CNSA_KEY_NET_TYPE_CLEARANCES {
+    constr_area = OMAP35
+    net_type1 = NO-TYPE
+    net_type2 = NO-TYPE
+    layers = lyr3-sig
+    set_name = CSET00007
+}
+
+CNSA_KEY_NET_TYPE_CLEARANCES {
+    constr_area = OMAP35
+    net_type1 = NO-TYPE
+    net_type2 = NO-TYPE
+    layers = lyr4-sig
+    set_name = CSET00007
+}
+
+CNSA_KEY_NET_TYPE_CLEARANCES {
+    constr_area = OMAP35
+    net_type1 = NO-TYPE
+    net_type2 = NO-TYPE
+    layers = lyr5-pwr
+    set_name = CSET00007
+}
+
+CNSA_KEY_NET_TYPE_CLEARANCES {
+    constr_area = OMAP35
+    net_type1 = NO-TYPE
+    net_type2 = NO-TYPE
+    layers = bottom
+    set_name = CSET00007
+}
+
+CNSA_NET_TYPE_CLEARANCES {
+    constr_area = PIN2PIN
+    net_type1 = CLK
+    net_type2 = CLK
+    layers = top
+    bb_via2bb_via = 0.005000
+    bb_via2line = 0.005000
+    bb_via2smd_pin = 0.005000
+    bb_via2shape = 0.005000
+    bb_via2tst_pin = 0.005000
+    bb_via2tst_via = 0.005000
+    bb_via2thru_pin = 0.005000
+    bb_via2thru_via = 0.005000
+    line2line = 0.005000
+    line2smd_pin = 0.005000
+    line2shape = 0.005000
+    line2tst_pin = 0.005000
+    line2tst_via = 0.005000
+    line2thru_pin = 0.005000
+    line2thru_via = 0.005000
+    shape2shape = 0.012000
+    shape2tst_pin = 0.005000
+    shape2tst_via = 0.005000
+    shape2thru_pin = 0.005000
+    shape2thru_via = 0.005000
+    smd_pin2smd_pin = 0.004000
+    smd_pin2tst_pin = 0.005000
+    smd_pin2tst_via = 0.005000
+    smd_pin2thru_pin = 0.005000
+    tst_pin2tst_pin = 0.005000
+    tst_pin2tst_via = 0.005000
+    tst_pin2thru_pin = 0.005000
+    tst_pin2thru_via = 0.005000
+    tst_via2tst_via = 0.005000
+    tst_via2thru_pin = 0.005000
+    tst_via2thru_via = 0.005000
+    thru_pin2thru_pin = 0.005000
+    thru_pin2thru_via = 0.005000
+    thru_via2thru_via = 0.005000
+    hole2hole = 0.006000
+    hole2owire = 0.006000
+    owire2owire = 0.006000
+    dwire2dwire = 0.006000
+    dwire2hole = 0.006000
+    dwire2owire = 0.006000
+    thru_pin2bond_pad = 0.005000
+    smd_pin2bond_pad = 0.005000
+    thru_via2bond_pad = 0.005000
+    bond_pad2bond_pad = 0.005000
+    bond_pad2line = 0.005000
+    bond_pad2shape = 0.005000
+    bb_via2bond_pad = 0.005000
+    tst_pin2bond_pad = 0.005000
+    tst_via2bond_pad = 0.005000
+}
+
+CNSA_KEY_NET_TYPE_CLEARANCES {
+    constr_area = PIN2PIN
+    net_type1 = CLK
+    net_type2 = CLK
+    layers = top
+    main_set_name = CSET00008
+}
+
+CNSA_KEY_NET_TYPE_CLEARANCES {
+    constr_area = PIN2PIN
+    net_type1 = CLK
+    net_type2 = CLK
+    layers = lyr2-gnd
+    set_name = CSET00008
+}
+
+CNSA_KEY_NET_TYPE_CLEARANCES {
+    constr_area = PIN2PIN
+    net_type1 = CLK
+    net_type2 = CLK
+    layers = lyr3-sig
+    set_name = CSET00008
+}
+
+CNSA_KEY_NET_TYPE_CLEARANCES {
+    constr_area = PIN2PIN
+    net_type1 = CLK
+    net_type2 = CLK
+    layers = lyr4-sig
+    set_name = CSET00008
+}
+
+CNSA_KEY_NET_TYPE_CLEARANCES {
+    constr_area = PIN2PIN
+    net_type1 = CLK
+    net_type2 = CLK
+    layers = lyr5-pwr
+    set_name = CSET00008
+}
+
+CNSA_KEY_NET_TYPE_CLEARANCES {
+    constr_area = PIN2PIN
+    net_type1 = CLK
+    net_type2 = CLK
+    layers = bottom
+    set_name = CSET00008
+}
+
+CNSA_KEY_NET_TYPE_CLEARANCES {
+    constr_area = PIN2PIN
+    net_type1 = NO-TYPE
+    net_type2 = CLK
+    layers = top
+    set_name = CSET00008
+}
+
+CNSA_KEY_NET_TYPE_CLEARANCES {
+    constr_area = PIN2PIN
+    net_type1 = NO-TYPE
+    net_type2 = CLK
+    layers = lyr2-gnd
+    set_name = CSET00008
+}
+
+CNSA_KEY_NET_TYPE_CLEARANCES {
+    constr_area = PIN2PIN
+    net_type1 = NO-TYPE
+    net_type2 = CLK
+    layers = lyr3-sig
+    set_name = CSET00008
+}
+
+CNSA_KEY_NET_TYPE_CLEARANCES {
+    constr_area = PIN2PIN
+    net_type1 = NO-TYPE
+    net_type2 = CLK
+    layers = lyr4-sig
+    set_name = CSET00008
+}
+
+CNSA_KEY_NET_TYPE_CLEARANCES {
+    constr_area = PIN2PIN
+    net_type1 = NO-TYPE
+    net_type2 = CLK
+    layers = lyr5-pwr
+    set_name = CSET00008
+}
+
+CNSA_KEY_NET_TYPE_CLEARANCES {
+    constr_area = PIN2PIN
+    net_type1 = NO-TYPE
+    net_type2 = CLK
+    layers = bottom
+    set_name = CSET00008
+}
+
+CNSA_KEY_NET_TYPE_CLEARANCES {
+    constr_area = PIN2PIN
+    net_type1 = NO-TYPE
+    net_type2 = NO-TYPE
+    layers = top
+    set_name = CSET00008
+}
+
+CNSA_KEY_NET_TYPE_CLEARANCES {
+    constr_area = PIN2PIN
+    net_type1 = NO-TYPE
+    net_type2 = NO-TYPE
+    layers = lyr2-gnd
+    set_name = CSET00008
+}
+
+CNSA_KEY_NET_TYPE_CLEARANCES {
+    constr_area = PIN2PIN
+    net_type1 = NO-TYPE
+    net_type2 = NO-TYPE
+    layers = lyr3-sig
+    set_name = CSET00008
+}
+
+CNSA_KEY_NET_TYPE_CLEARANCES {
+    constr_area = PIN2PIN
+    net_type1 = NO-TYPE
+    net_type2 = NO-TYPE
+    layers = lyr4-sig
+    set_name = CSET00008
+}
+
+CNSA_KEY_NET_TYPE_CLEARANCES {
+    constr_area = PIN2PIN
+    net_type1 = NO-TYPE
+    net_type2 = NO-TYPE
+    layers = lyr5-pwr
+    set_name = CSET00008
+}
+
+CNSA_KEY_NET_TYPE_CLEARANCES {
+    constr_area = PIN2PIN
+    net_type1 = NO-TYPE
+    net_type2 = NO-TYPE
+    layers = bottom
+    set_name = CSET00008
+}
+
+CNSA_NET_TYPE_PHYSICAL_PARAMS {
+    constr_area = *
+    net_type = *
+    layers = bottom
+    min_line_width = 0.005000
+    min_neck_width = 0.003000
+    max_line_length = 1.000000
+}
+
+CNSA_NET_TYPE_PHYSICAL_PARAMS {
+    constr_area = *
+    net_type = *
+    layers = lyr5-pwr
+    min_line_width = 0.005000
+    min_neck_width = 0.003000
+    max_line_length = 1.000000
+}
+
+CNSA_NET_TYPE_PHYSICAL_PARAMS {
+    constr_area = *
+    net_type = *
+    layers = lyr4-sig
+    min_line_width = 0.005000
+    min_neck_width = 0.003000
+    max_line_length = 1.000000
+}
+
+CNSA_NET_TYPE_PHYSICAL_PARAMS {
+    constr_area = *
+    net_type = *
+    layers = lyr3-sig
+    min_line_width = 0.005000
+    min_neck_width = 0.003000
+    max_line_length = 1.000000
+}
+
+CNSA_NET_TYPE_PHYSICAL_PARAMS {
+    constr_area = *
+    net_type = *
+    layers = top
+    min_line_width = 0.005000
+    min_neck_width = 0.003000
+    max_line_length = 1.000000
+}
+
+CNSA_NET_TYPE_PHYSICAL_PARAMS {
+    constr_area = *
+    net_type = *
+    layers = lyr2-gnd
+    min_line_width = 0.005000
+    min_neck_width = 0.003000
+    max_line_length = 1.000000
+}
+
+CNSA_NET_TYPE_PHYSICAL_PARAMS {
+    constr_area = NO-TYPE
+    net_type = POWER
+    layers = lyr2-gnd
+    min_line_width = 0.015000
+    min_neck_width = 0.005000
+    max_line_length = 0.500000
+}
+
+CNSA_NET_TYPE_PHYSICAL_PARAMS {
+    constr_area = NO-TYPE
+    net_type = POWER
+    layers = lyr3-sig
+    min_line_width = 0.015000
+    min_neck_width = 0.005000
+    max_line_length = 0.500000
+}
+
+CNSA_NET_TYPE_PHYSICAL_PARAMS {
+    constr_area = NO-TYPE
+    net_type = POWER
+    layers = top
+    min_line_width = 0.015000
+    min_neck_width = 0.005000
+    max_line_length = 0.500000
+}
+
+CNSA_NET_TYPE_PHYSICAL_PARAMS {
+    constr_area = NO-TYPE
+    net_type = POWER
+    layers = lyr4-sig
+    min_line_width = 0.015000
+    min_neck_width = 0.005000
+    max_line_length = 0.500000
+}
+
+CNSA_NET_TYPE_PHYSICAL_PARAMS {
+    constr_area = NO-TYPE
+    net_type = POWER
+    layers = lyr5-pwr
+    min_line_width = 0.015000
+    min_neck_width = 0.005000
+    max_line_length = 0.500000
+}
+
+CNSA_NET_TYPE_PHYSICAL_PARAMS {
+    constr_area = NO-TYPE
+    net_type = POWER
+    layers = bottom
+    min_line_width = 0.015000
+    min_neck_width = 0.005000
+    max_line_length = 0.500000
+}
+
+CNSA_NET_TYPE_PHYSICAL_PARAMS {
+    constr_area = OMAP
+    net_type = POWER
+    layers = lyr5-pwr
+    min_line_width = 0.015000
+    min_neck_width = 0.005000
+    max_line_length = 0.500000
+}
+
+CNSA_NET_TYPE_PHYSICAL_PARAMS {
+    constr_area = OMAP
+    net_type = POWER
+    layers = lyr4-sig
+    min_line_width = 0.015000
+    min_neck_width = 0.005000
+    max_line_length = 0.500000
+}
+
+CNSA_NET_TYPE_PHYSICAL_PARAMS {
+    constr_area = OMAP
+    net_type = POWER
+    layers = bottom
+    min_line_width = 0.015000
+    min_neck_width = 0.005000
+    max_line_length = 0.500000
+}
+
+CNSA_NET_TYPE_PHYSICAL_PARAMS {
+    constr_area = OMAP
+    net_type = POWER
+    layers = lyr2-gnd
+    min_line_width = 0.015000
+    min_neck_width = 0.005000
+    max_line_length = 0.500000
+}
+
+CNSA_NET_TYPE_PHYSICAL_PARAMS {
+    constr_area = OMAP
+    net_type = POWER
+    layers = top
+    min_line_width = 0.015000
+    min_neck_width = 0.005000
+    max_line_length = 0.500000
+}
+
+CNSA_NET_TYPE_PHYSICAL_PARAMS {
+    constr_area = OMAP
+    net_type = POWER
+    layers = lyr3-sig
+    min_line_width = 0.015000
+    min_neck_width = 0.005000
+    max_line_length = 0.500000
+}
+
+CNSA_NET_TYPE_PHYSICAL_PARAMS {
+    constr_area = OMAP35
+    net_type = NO-TYPE
+    layers = bottom
+    min_line_width = 0.003000
+    min_neck_width = 0.003000
+    max_line_length = 0.200000
+}
+
+CNSA_NET_TYPE_PHYSICAL_PARAMS {
+    constr_area = OMAP35
+    net_type = NO-TYPE
+    layers = lyr2-gnd
+    min_line_width = 0.003000
+    min_neck_width = 0.003000
+    max_line_length = 0.200000
+}
+
+CNSA_NET_TYPE_PHYSICAL_PARAMS {
+    constr_area = OMAP35
+    net_type = NO-TYPE
+    layers = lyr3-sig
+    min_line_width = 0.003000
+    min_neck_width = 0.003000
+    max_line_length = 0.200000
+}
+
+CNSA_NET_TYPE_PHYSICAL_PARAMS {
+    constr_area = OMAP35
+    net_type = NO-TYPE
+    layers = lyr5-pwr
+    min_line_width = 0.003000
+    min_neck_width = 0.003000
+    max_line_length = 0.200000
+}
+
+CNSA_NET_TYPE_PHYSICAL_PARAMS {
+    constr_area = OMAP35
+    net_type = NO-TYPE
+    layers = lyr4-sig
+    min_line_width = 0.003000
+    min_neck_width = 0.003000
+    max_line_length = 0.200000
+}
+
+CNSA_NET_TYPE_PHYSICAL_PARAMS {
+    constr_area = OMAP35
+    net_type = NO-TYPE
+    layers = top
+    min_line_width = 0.003000
+    min_neck_width = 0.003000
+    max_line_length = 0.200000
+}
+
+CNSA_NET_TYPE_PHYSICAL_PARAMS {
+    constr_area = OMAP35
+    net_type = POWER
+    layers = lyr5-pwr
+    min_line_width = 0.015000
+    min_neck_width = 0.005000
+    max_line_length = 0.500000
+}
+
+CNSA_NET_TYPE_PHYSICAL_PARAMS {
+    constr_area = OMAP35
+    net_type = POWER
+    layers = lyr2-gnd
+    min_line_width = 0.015000
+    min_neck_width = 0.005000
+    max_line_length = 0.500000
+}
+
+CNSA_NET_TYPE_PHYSICAL_PARAMS {
+    constr_area = OMAP35
+    net_type = POWER
+    layers = top
+    min_line_width = 0.015000
+    min_neck_width = 0.005000
+    max_line_length = 0.500000
+}
+
+CNSA_NET_TYPE_PHYSICAL_PARAMS {
+    constr_area = OMAP35
+    net_type = POWER
+    layers = bottom
+    min_line_width = 0.015000
+    min_neck_width = 0.005000
+    max_line_length = 0.500000
+}
+
+CNSA_NET_TYPE_PHYSICAL_PARAMS {
+    constr_area = OMAP35
+    net_type = POWER
+    layers = lyr3-sig
+    min_line_width = 0.015000
+    min_neck_width = 0.005000
+    max_line_length = 0.500000
+}
+
+CNSA_NET_TYPE_PHYSICAL_PARAMS {
+    constr_area = OMAP35
+    net_type = POWER
+    layers = lyr4-sig
+    min_line_width = 0.015000
+    min_neck_width = 0.005000
+    max_line_length = 0.500000
+}
+
+NET_ELECTRICAL_PARAMS {
+    ecset_name = DSS-BUSS
+    dpair_prim_gap = 0.000000
+    dpair_line_width = 0.000000
+    dpair_neck_gap = 0.000000
+    dpair_neck_width = 0.000000
+    dpair_coupled_tol_min = 0.000000
+    dpair_coupled_tol_pl = 0.000000
+    dpair_minimum_spacing = 0.000000
+    dpair_gather_control = 0.000000
+    dpair_max_uncoupled_len = 0.000000
+    dpair_phase_control = 0.000000
+    dpair_phase_tolerance_min = 0.000000
+    dpair_phase_tolerance_pl = 0.000000
+}
+
+NET_ELECTRICAL_PARAMS {
+    ecset_name = DIFF
+    dpair_prim_gap = 0.005000
+    dpair_line_width = 0.005000
+    dpair_neck_gap = 0.003000
+    dpair_neck_width = 0.003000
+    dpair_coupled_tol_min = 0.000000
+    dpair_coupled_tol_pl = 0.000000
+    dpair_minimum_spacing = 0.003000
+    dpair_gather_control = 0.000000
+    dpair_max_uncoupled_len = 0.000000
+    dpair_phase_control = 0.000000
+    dpair_phase_tolerance_min = 0.000000
+    dpair_phase_tolerance_pl = 0.005000
+}
+
+NET_ELECTRICAL_PARAMS {
+    ecset_name = DIFF-100
+    dpair_prim_gap = 0.010600
+    dpair_line_width = 0.003400
+    dpair_neck_gap = 0.000000
+    dpair_neck_width = 0.003400
+    dpair_coupled_tol_min = 0.000000
+    dpair_coupled_tol_pl = 0.000000
+    dpair_minimum_spacing = 0.003400
+    dpair_gather_control = 0.000000
+    dpair_max_uncoupled_len = 0.000000
+    dpair_phase_control = 0.000000
+    dpair_phase_tolerance_min = 0.000000
+    dpair_phase_tolerance_pl = 0.005000
+}
+
+NET_ELECTRICAL_PARAMS {
+    ecset_name = DIFF-90
+    dpair_prim_gap = 0.007900
+    dpair_line_width = 0.004100
+    dpair_neck_gap = 0.003000
+    dpair_neck_width = 0.003000
+    dpair_coupled_tol_min = 0.000000
+    dpair_coupled_tol_pl = 0.000000
+    dpair_minimum_spacing = 0.003000
+    dpair_gather_control = 0.000000
+    dpair_max_uncoupled_len = 0.000000
+    dpair_phase_control = 0.000000
+    dpair_phase_tolerance_min = 0.000000
+    dpair_phase_tolerance_pl = 0.005000
+}
+
+NET_ELECTRICAL_PARAMS {
+    ecset_name = UPREVED-DEFAULT
+    dpair_prim_gap = 0.000000
+    dpair_line_width = 0.000000
+    dpair_neck_gap = 0.000000
+    dpair_neck_width = 0.000000
+    dpair_coupled_tol_min = 0.000000
+    dpair_coupled_tol_pl = 0.000000
+    dpair_minimum_spacing = 0.000000
+    dpair_gather_control = 0.000000
+    dpair_max_uncoupled_len = 0.000000
+    dpair_phase_control = 0.000000
+    dpair_phase_tolerance_min = 0.000000
+    dpair_phase_tolerance_pl = 0.000000
+}
+
+NET_ECSET_ENTRY {
+    net_name = DSS_ACBIAS
+    ecset_name = DSS-BUSS
+}
+
+NET_ECSET_ENTRY {
+    net_name = DSS_D0
+    ecset_name = DSS-BUSS
+}
+
+NET_ECSET_ENTRY {
+    net_name = DSS_D1
+    ecset_name = DSS-BUSS
+}
+
+NET_ECSET_ENTRY {
+    net_name = DSS_D10
+    ecset_name = DSS-BUSS
+}
+
+NET_ECSET_ENTRY {
+    net_name = DSS_D11
+    ecset_name = DSS-BUSS
+}
+
+NET_ECSET_ENTRY {
+    net_name = DSS_D12
+    ecset_name = DSS-BUSS
+}
+
+NET_ECSET_ENTRY {
+    net_name = DSS_D13
+    ecset_name = DSS-BUSS
+}
+
+NET_ECSET_ENTRY {
+    net_name = DSS_D14
+    ecset_name = DSS-BUSS
+}
+
+NET_ECSET_ENTRY {
+    net_name = DSS_D15
+    ecset_name = DSS-BUSS
+}
+
+NET_ECSET_ENTRY {
+    net_name = DSS_D16
+    ecset_name = DSS-BUSS
+}
+
+NET_ECSET_ENTRY {
+    net_name = DSS_D17
+    ecset_name = DSS-BUSS
+}
+
+NET_ECSET_ENTRY {
+    net_name = DSS_D18
+    ecset_name = DSS-BUSS
+}
+
+NET_ECSET_ENTRY {
+    net_name = DSS_D19
+    ecset_name = DSS-BUSS
+}
+
+NET_ECSET_ENTRY {
+    net_name = DSS_D2
+    ecset_name = DSS-BUSS
+}
+
+NET_ECSET_ENTRY {
+    net_name = DSS_D20
+    ecset_name = DSS-BUSS
+}
+
+NET_ECSET_ENTRY {
+    net_name = DSS_D21
+    ecset_name = DSS-BUSS
+}
+
+NET_ECSET_ENTRY {
+    net_name = DSS_D22
+    ecset_name = DSS-BUSS
+}
+
+NET_ECSET_ENTRY {
+    net_name = DSS_D23
+    ecset_name = DSS-BUSS
+}
+
+NET_ECSET_ENTRY {
+    net_name = DSS_D3
+    ecset_name = DSS-BUSS
+}
+
+NET_ECSET_ENTRY {
+    net_name = DSS_D4
+    ecset_name = DSS-BUSS
+}
+
+NET_ECSET_ENTRY {
+    net_name = DSS_D5
+    ecset_name = DSS-BUSS
+}
+
+NET_ECSET_ENTRY {
+    net_name = DSS_D6
+    ecset_name = DSS-BUSS
+}
+
+NET_ECSET_ENTRY {
+    net_name = DSS_D7
+    ecset_name = DSS-BUSS
+}
+
+NET_ECSET_ENTRY {
+    net_name = DSS_D8
+    ecset_name = DSS-BUSS
+}
+
+NET_ECSET_ENTRY {
+    net_name = DSS_D9
+    ecset_name = DSS-BUSS
+}
+
+NET_ECSET_ENTRY {
+    net_name = DSS_DX0
+    ecset_name = DSS-BUSS
+}
+
+NET_ECSET_ENTRY {
+    net_name = DSS_DX1
+    ecset_name = DSS-BUSS
+}
+
+NET_ECSET_ENTRY {
+    net_name = DSS_DX2
+    ecset_name = DSS-BUSS
+}
+
+NET_ECSET_ENTRY {
+    net_name = DSS_DX3
+    ecset_name = DSS-BUSS
+}
+
+NET_ECSET_ENTRY {
+    net_name = DSS_DX4
+    ecset_name = DSS-BUSS
+}
+
+NET_ECSET_ENTRY {
+    net_name = DSS_DX5
+    ecset_name = DSS-BUSS
+}
+
+NET_ECSET_ENTRY {
+    net_name = DSS_HSYNC
+    ecset_name = DSS-BUSS
+}
+
+NET_ECSET_ENTRY {
+    net_name = DSS_PCLK
+    ecset_name = DSS-BUSS
+}
+
+NET_ECSET_ENTRY {
+    net_name = DSS_VSYNC
+    ecset_name = DSS-BUSS
+}
+
+NET_ECSET_ENTRY {
+    net_name = DVI_CLK+
+    ecset_name = DSS-BUSS
+}
+
+NET_ECSET_ENTRY {
+    net_name = DVI_DATA0
+    ecset_name = DSS-BUSS
+}
+
+NET_ECSET_ENTRY {
+    net_name = DVI_DATA1
+    ecset_name = DSS-BUSS
+}
+
+NET_ECSET_ENTRY {
+    net_name = DVI_DATA10
+    ecset_name = DSS-BUSS
+}
+
+NET_ECSET_ENTRY {
+    net_name = DVI_DATA11
+    ecset_name = DSS-BUSS
+}
+
+NET_ECSET_ENTRY {
+    net_name = DVI_DATA12
+    ecset_name = DSS-BUSS
+}
+
+NET_ECSET_ENTRY {
+    net_name = DVI_DATA13
+    ecset_name = DSS-BUSS
+}
+
+NET_ECSET_ENTRY {
+    net_name = DVI_DATA14
+    ecset_name = DSS-BUSS
+}
+
+NET_ECSET_ENTRY {
+    net_name = DVI_DATA15
+    ecset_name = DSS-BUSS
+}
+
+NET_ECSET_ENTRY {
+    net_name = DVI_DATA16
+    ecset_name = DSS-BUSS
+}
+
+NET_ECSET_ENTRY {
+    net_name = DVI_DATA17
+    ecset_name = DSS-BUSS
+}
+
+NET_ECSET_ENTRY {
+    net_name = DVI_DATA18
+    ecset_name = DSS-BUSS
+}
+
+NET_ECSET_ENTRY {
+    net_name = DVI_DATA19
+    ecset_name = DSS-BUSS
+}
+
+NET_ECSET_ENTRY {
+    net_name = DVI_DATA2
+    ecset_name = DSS-BUSS
+}
+
+NET_ECSET_ENTRY {
+    net_name = DVI_DATA20
+    ecset_name = DSS-BUSS
+}
+
+NET_ECSET_ENTRY {
+    net_name = DVI_DATA21
+    ecset_name = DSS-BUSS
+}
+
+NET_ECSET_ENTRY {
+    net_name = DVI_DATA22
+    ecset_name = DSS-BUSS
+}
+
+NET_ECSET_ENTRY {
+    net_name = DVI_DATA23
+    ecset_name = DSS-BUSS
+}
+
+NET_ECSET_ENTRY {
+    net_name = DVI_DATA3
+    ecset_name = DSS-BUSS
+}
+
+NET_ECSET_ENTRY {
+    net_name = DVI_DATA4
+    ecset_name = DSS-BUSS
+}
+
+NET_ECSET_ENTRY {
+    net_name = DVI_DATA5
+    ecset_name = DSS-BUSS
+}
+
+NET_ECSET_ENTRY {
+    net_name = DVI_DATA6
+    ecset_name = DSS-BUSS
+}
+
+NET_ECSET_ENTRY {
+    net_name = DVI_DATA7
+    ecset_name = DSS-BUSS
+}
+
+NET_ECSET_ENTRY {
+    net_name = DVI_DATA8
+    ecset_name = DSS-BUSS
+}
+
+NET_ECSET_ENTRY {
+    net_name = DVI_DATA9
+    ecset_name = DSS-BUSS
+}
+
+NET_ECSET_ENTRY {
+    net_name = DVI_DEN
+    ecset_name = DSS-BUSS
+}
+
+NET_ECSET_ENTRY {
+    net_name = DVI_HSYNC
+    ecset_name = DSS-BUSS
+}
+
+NET_ECSET_ENTRY {
+    net_name = DVI_VSYNC
+    ecset_name = DSS-BUSS
+}
+
+NET_ECSET_ENTRY {
+    net_name = HSUSB_DN
+    ecset_name = DIFF-90
+}
+
+NET_ECSET_ENTRY {
+    net_name = HSUSB_DP
+    ecset_name = DIFF-90
+}
+
+NET_ECSET_ENTRY {
+    net_name = RXN
+    ecset_name = DIFF-100
+}
+
+NET_ECSET_ENTRY {
+    net_name = RXP
+    ecset_name = DIFF-100
+}
+
+NET_ECSET_ENTRY {
+    net_name = TXC+
+    ecset_name = DIFF-100
+}
+
+NET_ECSET_ENTRY {
+    net_name = TXC-
+    ecset_name = DIFF-100
+}
+
+NET_ECSET_ENTRY {
+    net_name = TXD0+
+    ecset_name = DIFF-100
+}
+
+NET_ECSET_ENTRY {
+    net_name = TXD0-
+    ecset_name = DIFF-100
+}
+
+NET_ECSET_ENTRY {
+    net_name = TXD1+
+    ecset_name = DIFF-100
+}
+
+NET_ECSET_ENTRY {
+    net_name = TXD1-
+    ecset_name = DIFF-100
+}
+
+NET_ECSET_ENTRY {
+    net_name = TXD2+
+    ecset_name = DIFF-100
+}
+
+NET_ECSET_ENTRY {
+    net_name = TXD2-
+    ecset_name = DIFF-100
+}
+
+NET_ECSET_ENTRY {
+    net_name = TXN
+    ecset_name = DIFF-100
+}
+
+NET_ECSET_ENTRY {
+    net_name = TXP
+    ecset_name = DIFF-100
+}
+
+NET_ECSET_ENTRY {
+    net_name = UART3_RX
+    ecset_name = DIFF
+}
+
+NET_ECSET_ENTRY {
+    net_name = UART3_TX
+    ecset_name = DIFF
+}
+
+NET_ECSET_ENTRY {
+    net_name = USBDM0
+    ecset_name = DIFF-90
+}
+
+NET_ECSET_ENTRY {
+    net_name = USBDM2
+    ecset_name = DIFF-90
+}
+
+NET_ECSET_ENTRY {
+    net_name = USBDM3
+    ecset_name = DIFF-90
+}
+
+NET_ECSET_ENTRY {
+    net_name = USBDM4
+    ecset_name = DIFF-90
+}
+
+NET_ECSET_ENTRY {
+    net_name = USBDM5
+    ecset_name = DIFF-90
+}
+
+NET_ECSET_ENTRY {
+    net_name = USBDP0
+    ecset_name = DIFF-90
+}
+
+NET_ECSET_ENTRY {
+    net_name = USBDP2
+    ecset_name = DIFF-90
+}
+
+NET_ECSET_ENTRY {
+    net_name = USBDP3
+    ecset_name = DIFF-90
+}
+
+NET_ECSET_ENTRY {
+    net_name = USBDP4
+    ecset_name = DIFF-90
+}
+
+NET_ECSET_ENTRY {
+    net_name = USBDP5
+    ecset_name = DIFF-90
+}
+
