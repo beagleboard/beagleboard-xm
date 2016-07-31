@@ -15,11 +15,11 @@ Designer Contact  : Hector A.
 
 Job#  101230CTC1
 
-README for ctc072_gerbers.zip
+README for http://github.com/beagleboard/beagleboard-xm/PCB/GERBER
 
-Files contained in the zip file:
+Files contained in the directory:
 
-README.1st      This file
+readme.txt      This file
 ctclyr1.072   	Layer 1
 ctclyr2.072     Layer 2
 ctclyr3.072   	Layer 3
