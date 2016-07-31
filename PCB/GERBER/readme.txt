@@ -1,50 +1,57 @@
-Date : 12/31/10 
 
-ion Design Inc.
-4410 Shoalwood
-Austin, Texas  78756          
-                        
-Design Manager    : Darren Larson
-                  : (512)260-5778
-             Email: dlarson@iondsn.com
-        Cell Phone: (512)850-7004
 
-Designer Contact  : Hector A.
-                  : (512)260-5778	Ext.305
-            Email : hectora@iondsn.com
 
-Job#  101230CTC1
+CALCAD, INC.
+1600 E.PIONEER PARKWAY
+SUITE # 530
+ARLINGTON, TX 76010-6542
+VOICE: (817)695.1806
+FAX:   (817)695.1809
+E-MAIL: pcb@calcad.net
 
-README for http://github.com/beagleboard/beagleboard-xm/PCB/GERBER
 
-Files contained in the directory:
 
-readme.txt      This file
-ctclyr1.072   	Layer 1
-ctclyr2.072     Layer 2
-ctclyr3.072   	Layer 3
-ctclyr4.072     Layer 4
-ctclyr5.072   	Layer 5
-ctclyr6.072     Layer 6
-ctcsmc.072   	Soldermask Layer 1 Side (Component)
-ctcsms.072    	Soldermask Layer 6 Side (Solder)
-ctcspc.072    	Solder Paste Layer 1 Side (for Assembly ONLY)(Ref.ONLY)
-ctcsps.072    	Solder Paste Layer 6 Side (for Assembly ONLY)(Ref.ONLY)
-ctctslk.072 	Silk Screen Layer 1 side
-ctcbslk.072 	Silk Screen Layer 6 side
-ctcfab1.072    	Fabrication Drawing Page 1(for Ref. ONLY)
-ctcfab2.072 	Fabrication Drawing Page 2)for Ref. ONLY)
-ctcassy1.072    Assembly Drawing Page 1 (for Ref. ONLY)
-ctcassy2.072    Assembly Drawing Page 2 (for Ref. ONLY)
-ncdrill1-2.drl   	Drill tape, Layer 1 through 2
-ncdrill1-3.drl		Drill tape, Layer 1 through 3
-ncdrill1-6.drl		Drill tape, through
-nc_param.txt 	Drill tape setup file
-ncdrill.log    	Drill tape composite file (for Reference ONLY)
-ctc072.ipc     	IPC-D-356 netlist (for Checking ONLY)
-art_param.txt  	Artwork Format File (for Ref. ONLY)
-ctccen.072	Placement file for Assembly (for Ref. Only)
-ctcnet.072 	Allegro Netlist (for Ref. Only)
 
-Notes:	PLEASE REVIEW FAB DRAWING FOR SPECIFIC REQUIREMENTS.
+
+CUSTOMER: CIRCUITCO
+E.E. CONTACT: RAO
+DATE: 08-17-2011
+JOB NAME:BeagleBoard_xM_Revc1.BRD 
+FAB.#: BEAGLE XM
+
+
+
+	  FILE DESCRIPTIONS :
+
+		 CCAM/GERBER/xM_RevC1_*:   = GERBER DATA
+                      
+                                     lyr1.ART  = TOP SIDE     LYR 1
+                                     lyr2.ART  = GND PLANE    LYR 2
+                                     lyr3.ART  = INNER SIGNAL LYR 3
+                                     lyr4.ART  = INNER SIGNAL LYR 4
+                                     lyr4.ART  = PWR PLANE    LYR 5
+                                     lyr4.ART  = BOTTOM SIDE  LYR 6
+                                     tslk.ART  = TOP SIDE SILKSCREEN
+                                     bslk.ART  = BOTTOM SIDE SILKSCREEN
+                                      smc.ART  = TOP SIDE SOLDERMASK
+                                      sms.ART  = BOT SIDE SOLDERMASK
+                                      spc.ART  = TOP SOLDERPASTE SCREEN
+                                      sps.ART  = BOTTOM SOLDERPASTE SCREEN                                                                 
+   
+		   DRILL/*:   *NCDRILL*.TAP  = DRILL DATA
+                         	  NCDRILL.LOG  = HOLE SIZES AND COUNT
+			         NC_PARAM.TXT  = DRILL PARAMETER FILE                                                
+                  
+                    *.CAD  = ASCII CAD FILE
+                                                             
+                    DXF/*.DXF  = DXF DRAWING FILE(S)
+
+                    PDF/*.PDF  = ACROBAT DRAWING FILE(S)
+
+                    *_XY.CMP  = COMPONENT X-Y LIST
+
+                    *_IPC356A.IPC  = IPC-D-356A NETLIST EXTRACT
+
+                                   
+                                        
 
