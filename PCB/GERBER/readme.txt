@@ -42,7 +42,7 @@ FAB.#: BEAGLE XM
                          	  NCDRILL.LOG  = HOLE SIZES AND COUNT
 			         NC_PARAM.TXT  = DRILL PARAMETER FILE                                                
                   
-                    *.CAD  = ASCII CAD FILE
+                    CCAM/*.CAD  = ASCII CAD FILE
                                                              
                     DXF/*.DXF  = DXF DRAWING FILE(S)
 
